@@ -44,7 +44,7 @@ print(coef_newton)
 
 # c) Diferencia entre ambas aproximaciones
 diff_max = np.max(np.abs(y_lag - y_new))
-
+print(f"\nc) Diferencia máxima absoluta entre Lagrange y Newton: {diff_max:.2e}")
 # Gráficas
 fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))
 
