@@ -44,7 +44,7 @@ errores3 = {
     "Circular": mse_circ
 }
 
-print("--- EJERCICIO 3: LECTURAS RAMAN ---")
+print("--- EJERCICIO 2: LECTURAS RAMAN ---")
 print(f"a) Lineal:      MSE = {mse_lin:.6f}")
 print(f"b) Cuadrático:  MSE = {mse_cuad:.6f}")
 print(f"   Cúbico:      MSE = {mse_cub:.6f}")
