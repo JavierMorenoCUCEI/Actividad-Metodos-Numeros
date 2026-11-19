@@ -40,7 +40,7 @@ errores = {
     "Exponencial": mse_exp
 }
 
-print("--- EJERCICIO 2: ANÁLISIS DE MODELOS ---")
+print("--- EJERCICIO 3: ANÁLISIS DE MODELOS ---")
 print(f"a) Lineal:      y = {p_lin[0]:.4f}x + {p_lin[1]:.4f} | MSE = {mse_lin:.6f}")
 print(f"b) Cuadrático:  y = {p_cuad[0]:.4f}x^2 + {p_cuad[1]:.4f}x + {p_cuad[2]:.4f} | MSE = {mse_cuad:.6f}")
 print(f"   Cúbico:      y = {p_cub[0]:.4f}x^3 + {p_cub[1]:.4f}x^2 + {p_cub[2]:.4f}x + {p_cub[3]:.4f} | MSE = {mse_cub:.6f}")
